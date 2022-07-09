@@ -129,6 +129,11 @@ ul {
     color: var(--second-text-color);
 }
 
+.auth-mail {
+    background-position: 50% 50%;
+}
+
+
 .auth-link:hover, 
 .auth-link:focus {
     color: var(--brend-color);
@@ -262,11 +267,56 @@ ul {
     color: var(--brend-color);
 }
 
+.footer-items{
+    display: flex;
+    gap: 70px;
+}
+
+.footer-cta{
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer-sotial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.footer-sotial-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-sotial-box:hover{
+    background-color: #2196F3;
+}
+
+.svg-white{
+    fill: white;
+}
+
+
+
 /* index.html MAIN*/
 /* кнопка героя */
 
 .hero-section {
-    background-color: #2F303A;
+    background-color: #C4C4C4;
+    background-image: linear-gradient(to right, 
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 200px 0;
 }
 
@@ -299,6 +349,16 @@ ul {
 }
 
 /* преимущества */
+.icon-box{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
 .advanteges-list {
     display: flex;
     margin-top: 0;
@@ -347,6 +407,35 @@ ul {
     padding-bottom: 94px; */
     gap: 30px;
 }
+/* Наша команда */
+.team-sotial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.sotial-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+}
+
+.sotial-box:hover{
+/* .sotial-box:focus{ */
+    background-color: #2196F3;
+    /* fill: white; */
+}
+
+.svg-hover:hover{
+/* .svg-hover:focus */
+fill: white;
+}
 
 .our-team-h3 {
     font-weight: 500;
@@ -367,7 +456,7 @@ ul {
 }
 
 .team-wrapper {
-    padding: 30px 0;
+    padding: 30px 0 16px 0;
 }
 
 .bgc {
@@ -381,4 +470,29 @@ ul {
 .team-list {
     display: flex;
     gap: 30px;
+}
+
+/* Постоянные клиенты */
+.clients-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.client-box{
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.client-box:hover{
+    border-color: #2196F3;
+}
+
+.client-item:hover{
+    fill: #2196F3;
 }
