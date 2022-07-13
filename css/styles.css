@@ -122,6 +122,9 @@ ul {
 }
 
 .auth-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -129,8 +132,8 @@ ul {
     color: var(--second-text-color);
 }
 
-.auth-mail {
-    background-position: 50% 50%;
+.header-svg-color{
+    fill: currentColor;
 }
 
 
@@ -207,6 +210,13 @@ ul {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
     border-top: none;
+}
+
+.card-shedow:hover,
+.card-shedow:focus{
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-title {
@@ -319,6 +329,8 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     padding: 200px 0;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .hero-text {
@@ -467,6 +479,8 @@ fill: #fff;
 
 .bgc-cards {
     background-color: var(--white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-list {
@@ -493,6 +507,11 @@ fill: #fff;
 
 .client-box:hover{
     border-color: #2196F3;
+}
+
+.client-item{
+    fill: #AFB1B8;
+
 }
 
 .client-item:hover{

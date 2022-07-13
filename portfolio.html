@@ -30,10 +30,20 @@
 
         <ul class="auth-header">
           <li>
-            <a href="mailto:infodevstudio.com" class="auth-link link">infodevstudio.com</a>
+            <a href="mailto:infodevstudio.com" class="auth-link link">
+              <svg width="16" height="12" class="header-svg-color">
+                <use href="./images/symbol-defs.svg#icon-mail"></use>
+              </svg>
+              infodevstudio.com
+            </a>
           </li>
           <li>
-            <a href="tel:+380961111111" class="auth-link link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="auth-link link">
+              <svg width="10" height="16" class="header-svg-color">
+                <use href="./images/symbol-defs.svg#icon-tel"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -52,63 +62,63 @@
           </ul>
 
           <ul class="filter-cards">
-            <li>
+            <li class="card-shedow">
               <img src="./images/people.jpg" alt="Люди" width="370" />
               <div class="portfolio-wrapper">
                 <h2 class="card-title">Технокряк</h2>
                 <p class="card-filter">Веб-сайт</p>
               </div>
             </li>
-            <li>
+            <li class="card-shedow">
               <img src="./images/sport.jpg" alt="Спортсмены" width="370" />
               <div class="portfolio-wrapper">
                 <h2 class="card-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
                 <p class="card-filter">Дизайн</p>
               </div>
             </li>
-            <li>
+            <li class="card-shedow">
               <img src="./images/seafood.jpg" alt="Морская еда" width="370" />
               <div class="portfolio-wrapper">
                 <h2 class="card-title">Ресторан <span lang="en">Seafood</span></h2>
                 <p class="card-filter">Приложение</p>
               </div>
             </li>
-            <li>
+            <li class="card-shedow">
               <img src="./images/nausnik.jpg" alt="Наушники" width="370" />
               <div class="portfolio-wrapper">
                 <h2 class="card-title">Проект <span lang="en">Prime</span></h2>
                 <p class="card-filter">Маркетинг</p>
               </div>
             </li>
-            <li>
+            <li class="card-shedow">
               <img src="./images/boxes.jpg" alt="Подарочная упаковка" width="370" />
               <div class="portfolio-wrapper">
                 <h2 class="card-title">Проект <span lang="en">Boxes</span></h2>
                 <p class="card-filter">Приложение</p>
               </div>
             </li>
-            <li>
+            <li class="card-shedow">
               <img src="./images/display.jpg" alt="Монитор" width="370" />
               <div class="portfolio-wrapper">
                 <h2 class="card-title"><span lang="en">Inspiration has no Borders</span></h2>
                 <p class="card-filter">Веб-сайт</p>
               </div>
             </li>
-            <li>
+            <li class="card-shedow">
               <img src="./images/book.jpg" alt="Книга" width="370" />
               <div class="portfolio-wrapper">
                 <h2 class="card-title">Издание <span lang="en"></span> Limited Edition</h2>
                 <p class="card-filter">Дизайн</p>
               </div>
             </li>
-            <li>
+            <li class="card-shedow">
               <img src="./images/sheet.jpg" alt="Этикетка" width="370" />
               <div class="portfolio-wrapper">
                 <h2 class="card-title">Проект <span lang="en">LAB</span></h2>
                 <p class="card-filter">Маркетинг</p>
               </div>
             </li>
-            <li>
+            <li class="card-shedow">
               <img src="./images/notebook.jpg" alt="Ноутбук" width="370" />
               <div class="portfolio-wrapper">
                 <h2 class="card-title"><span lang="en">Growing Business</span></h2>
@@ -121,17 +131,55 @@
     </main>
 
     <footer class="background-footer footer-list">
-      <div class="container">
-        <a href="#" class="logo">Web<span class="logo-footer">Studio</span></a>
-        <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
-        <ul>
-          <li class="footer-mail-margin">
-            <a href="mailto:infodevstudio.com" class="footer-auth">infodevstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="footer-auth">+38 096 111 11 11</a>
-          </li>
-        </ul>
+      <div class="container footer-items">
+        <div class="footer-address">
+          <a href="#" class="logo">Web<span class="logo-footer">Studio</span></a>
+          <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
+          <ul>
+            <li class="footer-mail-margin">
+              <a href="mailto:infodevstudio.com" class="footer-auth">infodevstudio.com</a>
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="footer-auth">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-cta">Присоединяйтесь</h3>
+          <div>
+            <ul class="footer-sotial">
+              <li>
+                <a href="#" class="footer-sotial-box">
+                  <svg class="svg-footer-white" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-sotial-box">
+                  <svg class="svg-footer-white" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-sotial-box">
+                  <svg class="svg-footer-white" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-sotial-box">
+                  <svg class="svg-footer-white" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
